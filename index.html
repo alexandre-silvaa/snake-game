@@ -6,26 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/stlye.css">
     <script defer src="./js/main.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
     <title>Snake Game</title>
 </head>
 <body>
 
-    <div align="justify"> 
-        <p align="center"> 
-            <strong>
-                <span > 
-                    <marquee behavior="alternate" scrolldelay="70" align="middle" height="29" width="341">
-                        PRESSIONE JOGAR
-                    </marquee> 
-                </span> 
-            </strong> 
-        </p>
-    </div>
+    <marquee direction="up" behavior="alternate" width="40%">
+        <marquee class="iniciar" direction="right">PRESS START TO BEGIN</marquee>
+    </marquee>
+
+
     
     <h1>SNAKE GAME</h1>
     <canvas id="snake" width="512" height="512"></canvas>
 
-    <button id="btn" onclick="jogar()">JOGAR</button>
+    <button id="btn" onclick="jogar()">START</button>
 
 </body>
 </html>
