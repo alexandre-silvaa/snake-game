@@ -7,3 +7,21 @@ body{
     flex-direction: column ;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#btn{
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+    width: 165px;
+    height: 35px;
+    background-color: #0066b8;
+    padding: 9px 50px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+#btn:hover{
+    background-color: rgb(84, 150, 250);
+    transition: 0.2s;
+}
