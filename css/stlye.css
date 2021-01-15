@@ -7,8 +7,8 @@ body{
     flex-direction: column ;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background-image: url("../img/bg.jpg");
-    background-size: 100%;
+    background-color: #252621;
+    background-size: cover;
 }
 
 .iniciar {
@@ -17,11 +17,11 @@ body{
 
 #btn{
     margin: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P', cursive;
     font-size: 13;
     width: 165px;
     height: 35px;
-    background-color: #0066b8;
+    background-color:  #b80000;
     padding: 9px 50px;
     border: none;
     border-radius: 4px;
@@ -29,6 +29,6 @@ body{
 }
 
 #btn:hover{
-    background-color: rgb(84, 150, 250);
+    background-color:  #fa3e3e;
     transition: 0.2s;
 }
